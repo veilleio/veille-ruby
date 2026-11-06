@@ -1,0 +1,24 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - "lib/*/operations.rb"
+    - "lib/*/endpoints.rb"
+    - "test/**/*"
+    - "vendor/**/*"
+
+Style/Documentation:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Metrics:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 140
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
